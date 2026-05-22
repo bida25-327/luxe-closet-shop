@@ -18,7 +18,7 @@ The Vanguard – Modern grey suit
 
 Each style is presented with pricing both for buying outright and renting for events, suggesting a flexible model that serves both long-term wardrobe building and short-term event needs.
 
-🧵 Brand Philosophy & Experience
+ Brand Philosophy & Experience
 
 Luxe Closet describes itself as more than just a store — it’s a tailoring experience that values:
 
