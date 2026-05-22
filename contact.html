@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Closet — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER BWP200 &nbsp;·&nbsp; Free Exchanges</div>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Luxe Closet</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Open menu" onclick="openMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMenu()">✕</button>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="products.html" onclick="closeMenu()">Products</a>
+    <a href="about.html" onclick="closeMenu()">About</a>
+    <a href="contact.html" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="contact-hero">
+    <span class="section-label">Get in Touch</span>
+    <h1>Visit Our <em>Atelier</em></h1>
+    <p>We'd love to meet you in person. Book a fitting, ask a question, or simply come in and feel the fabric for yourself.</p>
+  </section>
+
+  <!-- Contact Info + Form -->
+  <div class="contact-outer">
+    <div class="contact-wrapper">
+
+      <!-- Left: Info -->
+      <aside class="contact-info">
+        <h2>Let's connect</h2>
+        <p>Whether you're looking for a bespoke commission, a rental for a special occasion, or simply want to explore our collections — our team is here to help.</p>
+
+        <div class="info-item">
+          <div class="info-icon">✉</div>
+          <div class="info-body">
+            <strong>Email</strong>
+            <a href="mailto:bots@luxecloset.com">bots@luxecloset.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">☎</div>
+          <div class="info-body">
+            <strong>Telephone</strong>
+            <span>Tel: 3865734<br>(267) 76392925</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">◎</div>
+          <div class="info-body">
+            <strong>Atelier Location</strong>
+            <span>Botswana, Gaborone<br>Block 3 Industrial</span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <div class="info-icon">◷</div>
+          <div class="info-body">
+            <strong>Opening Hours</strong>
+            <span>Mon – Fri: 8:00am – 6:00pm<br>Saturday: 9:00am – 4:00pm<br>Sunday: Closed</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Right: Form -->
+      <div class="contact-form-wrap">
+        <h2>Send us a message</h2>
+        <p class="sub-text">Fill in the form below and one of our tailors will get back to you within 24 hours.</p>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="e.g. Kgosi" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="e.g. Mosimanegape" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="(267) 7XXXXXXX" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="inquiry">Type of Inquiry</label>
+          <select id="inquiry">
+            <option value="">Select an option</option>
+            <option value="bespoke">Bespoke Commission</option>
+            <option value="rental">Suit Rental</option>
+            <option value="alterations">Alterations</option>
+            <option value="general">General Enquiry</option>
+            <option value="careers">Careers</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell us what you're looking for..."></textarea>
+        </div>
+
+        <button class="btn btn-gold" onclick="submitForm()">Send Message</button>
+
+        <div id="form-feedback" role="alert" aria-live="polite"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Hours -->
+  <section class="hours-section">
+    <span class="section-label">Locations &amp; Hours</span>
+    <h2>Locate Us</h2>
+    <div class="hours-grid">
+
+      <div class="hours-card">
+        <h4>Main Atelier</h4>
+        <ul>
+          <li><span>Monday – Friday</span><span>8:00 – 18:00</span></li>
+          <li><span>Saturday</span><span>9:00 – 16:00</span></li>
+          <li class="closed"><span>Sunday</span><span>Closed</span></li>
+          <li class="closed"><span>Public Holidays</span><span>Closed</span></li>
+        </ul>
+      </div>
+
+      <div class="hours-card">
+        <h4>Showroom</h4>
+        <ul>
+          <li><span>Monday – Friday</span><span>9:00 – 17:00</span></li>
+          <li><span>Saturday</span><span>10:00 – 15:00</span></li>
+          <li class="closed"><span>Sunday</span><span>Closed</span></li>
+          <li class="closed"><span>Public Holidays</span><span>Closed</span></li>
+        </ul>
+      </div>
+
+      <div class="hours-card">
+        <h4>Book a Fitting</h4>
+        <ul>
+          <li><span>Availability</span><span>By Appointment</span></li>
+          <li><span>Days</span><span>Mon – Sat</span></li>
+          <li><span>Call us</span><span>3865734</span></li>
+          <li><span>WhatsApp</span><span>76392925</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="map-section">
+    <span class="section-label section-label--center">Botswana · Gaborone</span>
+    <h2>Find Our Atelier</h2>
+    <div class="map-container">
+      <!-- Google Maps embed — Block 3 Industrial, Gaborone, Botswana -->
+      <iframe
+        title="Luxe Closet Location — Block 3 Industrial, Gaborone"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.0!2d25.9063!3d-24.6565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebb49a3459f6781%3A0x1c8cce4bdcdb6a49!2sBlock%203%20Industrial%2C%20Gaborone!5e0!3m2!1sen!2sbw!4v1700000000000"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <span class="section-label">Our Craft</span>
+    <h2>Luxe <em>Closet</em></h2>
+    <p class="cta-sub">Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+    <a href="products.html" class="btn btn-gold">Browse Collection</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Luxe Closet</span>
+        <p>Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">Suits</a></li>
+          <li><a href="products.html">Tuxedos</a></li>
+          <li><a href="products.html">Blazers</a></li>
+          <li><a href="products.html">Shirts</a></li>
+          <li><a href="products.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Locations</a></li>
+          <li><a href="about.html">Style Advice</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          <a href="mailto:bots@luxecloset.com">bots@luxecloset.com</a><br>
+          Tel: 3865734<br>
+          (267) 76393935<br>
+          Botswana, Gaborone<br>
+          Block 3 Industrial
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Luxe Closet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    /* ── Mobile menu ── */
+    function openMenu()  { document.getElementById('mobileMenu').classList.add('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+
+    /* ── Contact form with validation + feedback ── */
+    function submitForm() {
+      const firstName = document.getElementById('firstName').value.trim();
+      const lastName  = document.getElementById('lastName').value.trim();
+      const email     = document.getElementById('email').value.trim();
+      const inquiry   = document.getElementById('inquiry').value;
+      const message   = document.getElementById('message').value.trim();
+      const feedback  = document.getElementById('form-feedback');
+
+      // Simple validation
+      if (!firstName || !lastName) {
+        showFeedback('error', '⚠ Please enter your first and last name.');
+        return;
+      }
+      if (!email || !isValidEmail(email)) {
+        showFeedback('error', '⚠ Please enter a valid email address.');
+        return;
+      }
+      if (!inquiry) {
+        showFeedback('error', '⚠ Please select a type of inquiry.');
+        return;
+      }
+      if (!message) {
+        showFeedback('error', '⚠ Please write a message before sending.');
+        return;
+      }
+
+      // Simulate sending (no real backend)
+      const btn = document.querySelector('.contact-form-wrap .btn');
+      btn.textContent = 'Sending…';
+      btn.disabled = true;
+
+      setTimeout(function () {
+        showFeedback(
+          'success',
+          '✓ Thank you, ' + firstName + '! Your message has been received. One of our tailors will get back to you within 24 hours.'
+        );
+        btn.textContent = 'Send Message';
+        btn.disabled = false;
+        // Clear form
+        ['firstName','lastName','email','phone','inquiry','message'].forEach(function(id) {
+          document.getElementById(id).value = '';
+        });
+      }, 1200);
+    }
+
+    function showFeedback(type, text) {
+      var el = document.getElementById('form-feedback');
+      el.className = 'visible ' + type;
+      el.textContent = text;
+      el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    function isValidEmail(email) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    }
+  </script>
+</body>
+</html>

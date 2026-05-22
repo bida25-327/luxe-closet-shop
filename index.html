@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Closet — Bespoke Tailoring</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement">GET CLASSIC OVER BWP1500 &nbsp;·&nbsp; Free Exchanges &amp; Complimentary Alterations</div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Luxe Closet</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Open menu" onclick="openMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMenu()" aria-label="Close menu">✕</button>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="products.html" onclick="closeMenu()">Products</a>
+    <a href="about.html" onclick="closeMenu()">About</a>
+    <a href="contact.html" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <span class="hero-label">Bespoke Tailoring for Every Moment</span>
+      <h1>Impeccably crafted <em>premium suits</em></h1>
+      <p>Shop online or visit our atelier · Delivered to your door · Tailored to perfection</p>
+      <div class="hero-btns">
+        <a href="products.html" class="btn btn-gold">Get Started</a>
+        <a href="products.html" class="btn btn-white">Browse Styles</a>
+      </div>
+      <p class="hero-note">Complimentary alterations with every order</p>
+    </div>
+  </section>
+
+  <!-- Featured Styles -->
+  <section class="featured">
+    <div class="featured-header">
+      <span class="section-label">Most Popular</span>
+      <h2>Featured <em>Styles</em></h2>
+    </div>
+    <div class="card-grid">
+
+      <div class="card">
+        <div class="card-img">
+          <img src="black suit.jpg" alt="The Diplomat — Classic Black Suit" />
+        </div>
+        <div class="card-body">
+          <h3>The Diplomat</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,500</span>
+            <span class="price-rent">Rent P900</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="charcoal.jpg" alt="The Chancellor — Charcoal Suit" />
+        </div>
+        <div class="card-body">
+          <h3>The Chancellor</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P3,999</span>
+            <span class="price-rent">Rent P1,200</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="bluesuit.jpg" alt="The Empress — Blue Suit" />
+        </div>
+        <div class="card-body">
+          <h3>The Empress</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P1,500</span>
+            <span class="price-rent">Rent P600</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="greysilk.jpg" alt="The Vanguard — Grey Suit" />
+        </div>
+        <div class="card-body">
+          <h3>The Vanguard</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,250</span>
+            <span class="price-rent">Rent P990</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="featured-cta">
+      <a href="products.html" class="btn">View Full Collection</a>
+    </div>
+  </section>
+
+  <!-- Brand Story Banner -->
+  <section class="brand-story">
+    <div class="brand-story-img">
+      <img src="https://images.unsplash.com/photo-1584184924103-e310d9dc82fc?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+        alt=" Tailor at work" />
+    </div>
+    <div class="brand-story-content">
+      <span class="section-label">Our Story</span>
+      <h2>Luxe Closet</h2>
+      <p>Premium suits &amp; formalwear, crafted for the modern connoisseur. Our Gaborone atelier blends centuries of
+        tailoring tradition with contemporary silhouette — because the perfect suit is not merely clothing, it is a
+        second skin.</p>
+      <a href="about.html" class="btn btn-white">Discover Our Craft</a>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-banner">
+    <span class="section-label">Perfect Fit</span>
+    <h2>Ready to find your <em>perfect suit?</em></h2>
+    <a href="products.html" class="btn btn-gold">Shop the Collection</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Luxe Closet</span>
+        <p>Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">Suits</a></li>
+          <li><a href="products.html">Tuxedos</a></li>
+          <li><a href="products.html">Blazers</a></li>
+          <li><a href="products.html">Shirts</a></li>
+          <li><a href="products.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Locations</a></li>
+          <li><a href="about.html">Style Advice</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          <a href="mailto:bots@luxecloset.com">bots@luxecloset.com</a><br>
+          Tel: 3865734<br>
+          (267) 76393935<br>
+          Botswana, Gaborone<br>
+          Block 3 Industrial
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Luxe Closet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function openMenu() { document.getElementById('mobileMenu').classList.add('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+  </script>
+</body>
+
+</html>

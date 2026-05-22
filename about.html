@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Closet — About</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER BWP200 &nbsp;·&nbsp; Free Exchanges</div>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Luxe Closet</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Open menu" onclick="openMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMenu()">✕</button>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="products.html" onclick="closeMenu()">Products</a>
+    <a href="about.html" onclick="closeMenu()">About</a>
+    <a href="contact.html" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- Hero -->
+  <section class="about-hero">
+    <span class="section-label">Est. 2026</span>
+    <h1>Our <em>Story</em></h1>
+    <p>Born from a simple conviction — that the art of bespoke tailoring should not be a relic of the past, but a
+      living, breathing craft that evolves with the modern world.</p>
+  </section>
+
+  <!-- Story Section -->
+  <section class="story-section">
+    <div class="story-text">
+      <span class="section-label story-side-label">Our Story</span>
+      <h2>Where tradition meets vision</h2>
+      <p>Luxe Closet was born from a simple conviction: that the art of bespoke tailoring should not be a relic of the
+        past, but a living, breathing craft that evolves with the modern world. Our atelier blends time-honored
+        techniques with contemporary silhouettes, creating suits that command attention without demanding it.</p>
+      <p>From our workshops in Botswana, Gaborone, Block 3 Industrial, our master tailors work with the world's finest
+        fabrics — Super 150s merino from Italy, cashmere blends from Scotland, and silks from the Orient.</p>
+      <p>Every piece that leaves our atelier carries with it the weight of tradition and the lightness of modern craft.
+        We believe a suit is not merely clothing — it is a second skin, a statement, a story told without words.</p>
+    </div>
+    <div class="story-img-wrap">
+      <img src="https://plus.unsplash.com/premium_photo-1661753115934-cdf47487b294?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+        alt=" Atelier craftsmanship" />
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="values-section">
+    <span class="section-label">What We Believe</span>
+    <h2>Our Values</h2>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-num">01</div>
+        <h4>Heritage</h4>
+        <p>Founded on decades of tailoring tradition passed down through generations of master craftsmen.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">02</div>
+        <h4>Precision</h4>
+        <p>Over 30 individual measurements and 200 hours of handwork go into every bespoke suit.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">03</div>
+        <h4>Sustainability</h4>
+        <p>We source exclusively from ethical mills and use zero-waste cutting techniques.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-num">04</div>
+        <h4>Individuality</h4>
+        <p>No two Luxe Closet suits are the same — each is as unique as the person who wears it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline-section">
+    <span class="section-label section-label--center">Our Journey</span>
+    <h2>How We Got Here</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2020</div>
+        <div class="timeline-body">
+          <h4>The Vision</h4>
+          <p>Founded in a small workshop in Gaborone with a single sewing machine and a bold dream.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2022</div>
+        <div class="timeline-body">
+          <h4>First Collection</h4>
+          <p>Launched our debut 12-piece men's collection to critical acclaim across Botswana.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2024</div>
+        <div class="timeline-body">
+          <h4>Women's Closet</h4>
+          <p>Expanded into womenswear, bringing the same precision and elegance to a new audience.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2026</div>
+        <div class="timeline-body">
+          <h4>Online Atelier</h4>
+          <p>Opened our digital doors — bespoke tailoring delivered to your doorstep, nationwide.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team -->
+  <section class="team-section">
+    <span class="section-label section-label--light">The People</span>
+    <h2>Meet the Craftsmen</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-avatar">K</div>
+        <h4>Master Tailor — Kgosi</h4>
+        <p class="team-role">Head of Atelier</p>
+        <p>With over 20 years of experience, Kgosi leads our team of artisans with an unwavering commitment to
+          precision.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">N</div>
+        <h4>Creative Director — Naledi</h4>
+        <p class="team-role">Design &amp; Collections</p>
+        <p>Naledi's eye for silhouette and colour has defined the Luxe Closet aesthetic since day one.</p>
+      </div>
+      <div class="team-card">
+        <div class="team-avatar">T</div>
+        <h4>Fabric Curator — Thabo</h4>
+        <p class="team-role">Materials &amp; Sourcing</p>
+        <p>Thabo travels the world to source only the finest ethical fabrics for every piece we create.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <span class="section-label">Our Craft</span>
+    <h2>Luxe <em>Closet</em></h2>
+    <p class="cta-sub">Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+    <a href="products.html" class="btn btn-gold">Browse Collection</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Luxe Closet</span>
+        <p>Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">Suits</a></li>
+          <li><a href="products.html">Tuxedos</a></li>
+          <li><a href="products.html">Blazers</a></li>
+          <li><a href="products.html">Shirts</a></li>
+          <li><a href="products.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Locations</a></li>
+          <li><a href="about.html">Style Advice</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          <a href="mailto:bots@luxecloset.com">bots@luxecloset.com</a><br>
+          Tel: 3865734<br>
+          (267) 76393935<br>
+          Botswana, Gaborone<br>
+          Block 3 Industrial
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Luxe Closet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function openMenu() { document.getElementById('mobileMenu').classList.add('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+  </script>
+</body>
+
+</html>

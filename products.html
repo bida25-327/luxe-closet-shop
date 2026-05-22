@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luxe Closet — Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="announcement">FREE SHIPPING ON ORDERS OVER BWP200 &nbsp;·&nbsp; Free Exchanges</div>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Luxe Closet</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="active">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Open menu" onclick="openMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMenu()">✕</button>
+    <a href="index.html" onclick="closeMenu()">Home</a>
+    <a href="products.html" onclick="closeMenu()">Products</a>
+    <a href="about.html" onclick="closeMenu()">About</a>
+    <a href="contact.html" onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <span class="section-label">Est. 2026</span>
+    <h1>All Suits &amp; <em>Blazers</em></h1>
+    <p>Discover our collection of meticulously crafted suits and blazers for every occasion — from classic black-tie to bold, modern colourways.</p>
+  </section>
+
+  <!-- Products -->
+  <section class="products-section">
+
+    <!-- Men's -->
+    <h2 class="section-heading">Men's Closet</h2>
+    <div class="products-grid">
+
+      <div class="card">
+        <div class="card-img">
+          <img src="Classic chargoal.jpg" alt="The Executive" />
+        </div>
+        <div class="card-body">
+          <h3>The Executive</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P4,200</span>
+            <span class="price-rent">Rent P1,700</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="grey suit.jpg" alt="The Riviera" />
+        </div>
+        <div class="card-body">
+          <h3>The Riviera</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,200</span>
+            <span class="price-rent">Rent P900</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="grey blazer.jpg" alt="Wild Cat Blazer" />
+        </div>
+        <div class="card-body">
+          <h3>Wild Cat</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P3,600</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Women's -->
+    <h2 class="section-heading">Women's Closet</h2>
+    <div class="products-grid">
+
+      <div class="card">
+        <div class="card-img">
+          <img src="slay queen grey.jpg" alt="The Athena" />
+        </div>
+        <div class="card-body">
+          <h3>The Athena</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P1,300</span>
+            <span class="price-rent">Rent P600</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="women in black suit.jpg" alt="The Miscellaneous" />
+        </div>
+        <div class="card-body">
+          <h3>The Miscellaneous</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,000</span>
+            <span class="price-rent">Rent P1,100</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="W-greyblazer.jpg" alt="The Minor" />
+        </div>
+        <div class="card-body">
+          <h3>The Minor</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P1,250</span>
+            <span class="price-rent">Rent P650</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="vintage.jpg" alt="The Empress" />
+        </div>
+        <div class="card-body">
+          <h3>The Empress</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,500</span>
+            <span class="price-rent">Rent P1,500</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="Brownie sit.jpg" alt="The Vanguard" />
+        </div>
+        <div class="card-body">
+          <h3>The Vanguard</h3>
+          <div class="price-row">
+            <span class="price-buy">Buy P2,250</span>
+            <span class="price-rent">Rent P990</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Craft Section -->
+  <section class="craft-section">
+    <span class="section-label">The Art</span>
+    <h2>Craftsmanship</h2>
+    <div class="craft-grid">
+      <div class="craft-item">
+        <div class="craft-num">01</div>
+        <h4>Hand-cut Fabrics</h4>
+        <p>Each piece is precision-cut from the world's finest Italian and British woolens.</p>
+      </div>
+      <div class="craft-item">
+        <div class="craft-num">02</div>
+        <h4>Rare Materials</h4>
+        <p>Sourced from heritage mills — Super 150s wool, cashmere blends, and silk linings.</p>
+      </div>
+      <div class="craft-item">
+        <div class="craft-num">03</div>
+        <h4>Perfect Fit</h4>
+        <p>Over 30 measurements ensure a silhouette that moves with you, never against.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-banner">
+    <span class="section-label">Our Story</span>
+    <h2>Luxe <em>Closet</em></h2>
+    <p class="cta-sub">Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+    <a href="contact.html" class="btn btn-gold">Visit Our Atelier</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Luxe Closet</span>
+        <p>Premium suits &amp; formalwear, crafted for the modern connoisseur.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="products.html">Suits</a></li>
+          <li><a href="products.html">Tuxedos</a></li>
+          <li><a href="products.html">Blazers</a></li>
+          <li><a href="products.html">Shirts</a></li>
+          <li><a href="products.html">Accessories</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Locations</a></li>
+          <li><a href="about.html">Style Advice</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <address>
+          <a href="mailto:bots@luxecloset.com">bots@luxecloset.com</a><br>
+          Tel: 3865734<br>
+          (267) 76393935<br>
+          Botswana, Gaborone<br>
+          Block 3 Industrial
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Luxe Closet. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function openMenu()  { document.getElementById('mobileMenu').classList.add('open'); }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); }
+  </script>
+</body>
+</html>
